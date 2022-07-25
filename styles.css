@@ -3,7 +3,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    margin: 0 5rem 0 0;
+    gap: 5 rem;
     align-items: center;
 }
 .header{
@@ -61,6 +61,6 @@ p{
 @media  screen and (max-width: 700px){
     body{
         flex-direction: column;
-        margin-right: 0 1rem 0 0;
+        gap: 1 rem;
     }
 }
