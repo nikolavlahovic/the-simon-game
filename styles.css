@@ -2,8 +2,8 @@ body{
     background-color: #e5e5e5;
     height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    gap: 5rem;
     align-items: center;
 }
 .header{
@@ -56,4 +56,11 @@ p{
 .box:hover{
     box-shadow: 0px 0px 20px rgb(0,0,0);
     background-color: #e5e5e5;
+}
+
+@media  screen and (max-width: 700px){
+    body{
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
